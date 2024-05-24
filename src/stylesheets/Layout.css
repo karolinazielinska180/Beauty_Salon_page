@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+
+}
+body{
+    background-color: #BE95C4;
+
+}
+
+nav {
+
+    background-color: #9F86C0;
+    padding: 10px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-family: fantasy;
+}
+
+li {
+    font-family: fantasy;
+   margin-bottom: 30px;
+}
+
+Link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+Link:hover {
+    text-decoration: underline;
+}
+
+
+Outlet {
+    padding: 20px;
+
+}

@@ -1,0 +1,78 @@
+
+
+.Visit {
+    padding: 20px;
+}
+
+.Visit h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.VisitTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.VisitTable th, .VisitTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.VisitTable th {
+    background-color: #9F86C0;
+    color: white;
+}
+
+.ActionIcon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.Visit * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #BE95C4;
+}
+
+nav {
+    background-color: #9F86C0;
+    padding: 10px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-family: fantasy;
+}
+
+li {
+    font-family: fantasy;
+    margin-bottom: 30px;
+}
+
+Link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+Link:hover {
+    text-decoration: underline;
+}
+
+Outlet {
+    padding: 20px;
+}
